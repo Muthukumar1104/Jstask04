@@ -1,0 +1,102 @@
+*{
+	box-sizing: border-box;
+	background-color: lightgrey;
+}
+.container{
+	margin: 130px 400px;
+	width: 620px;
+	height: 400px;
+	background-color: gold;
+	box-shadow: 13px 13px 25px #ffffff,
+	            -13px -13px 25px rgba(0,0,0,.16);
+}
+.cont{
+	display: flex;
+	padding: 20px 30px;
+	background-color: gold;
+}
+h1{
+	text-align: center;
+	text-indent: 66px;
+	background-color: gold;;
+
+}
+input[name="x"]{
+	padding: 10px 40px;
+	background-color: floralwhite;
+	border-radius: 8px;
+	border: none;
+	outline: none;
+	font-size: 15px;
+}
+input[name="y"]{
+	padding: 10px 40px;
+	background-color: floralwhite;
+	border: none;
+	border-radius: 8px;
+	outline: none;
+	font-size: 15px;
+}
+.max{
+	background-color: gold;
+}
+.min{
+	text-indent: 40px;
+	background-color: gold;
+}
+input[name="minbtn"]{
+	margin-left: 190px;
+	border-radius: 10px;
+  padding: 7px 25px;
+  color: lightyellow;
+  background-color: firebrick;
+  border: none;
+  box-shadow: 0px 0px 0px 2px #c9cccf,
+              0px 0px 0px 5px #ecf0f3,
+              6px 6px 15px 2px #a7aaaf,
+              -6px -6px 15px 2px #ffffff;
+}
+input[name="minbtn"]:active{
+	border-radius: 10px;
+  background-color: firebrick; 
+  color: black;
+  box-shadow:inset 22px 22px 30px #cbced1,
+             inset -22px -22px 30px #ffffff;
+}
+input[name="mxbtn"]{
+	margin-left: 2px;
+	color: lightyellow;
+	border-radius: 10px;
+	padding: 7px 25px;
+	background-color: firebrick;
+	border: none;
+  box-shadow: 0px 0px 0px 2px #c9cccf,
+              0px 0px 0px 5px #ecf0f3,
+              6px 6px 15px 2px #a7aaaf,
+              -6px -6px 15px 2px #ffffff;
+}
+input[name="mxbtn"]:active{
+	border-radius: 10px;
+	color: black;
+  background-color: #firebrick; 
+  box-shadow:inset 22px 22px 30px #cbced1,
+             inset -22px -22px 30px #ffffff;
+}
+.res{
+	background-color: gold;
+	margin-left: -285px;
+	margin-top: 60px;
+}
+input[name="res"]{
+	height: 50%;
+	width: 80%;
+	padding: 10px 0px;
+	text-indent: 10px;
+	text-align: center;
+	background-color: gold;
+	border: none;
+	outline: none;
+	color: black;
+	font-size: 15px;
+	font-style: italic;
+}
